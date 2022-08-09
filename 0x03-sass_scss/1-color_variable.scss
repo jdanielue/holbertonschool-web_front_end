@@ -2,7 +2,9 @@
 $alias: #3D3D3D;
 
 body {
-    p {
         color: $alias;
-    }
+}
+
+p {
+    color: $alias;
 }
