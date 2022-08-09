@@ -1,0 +1,17 @@
+/* My style */
+$nomargin: 0px;
+$nopading: 0px;
+$somemargin: 10px;
+$somepading: 10px;
+
+body {
+        margin: $nomargin;
+        pading: $nopading;
+        
+        p {
+            margin: $nomargin;
+            pading: $nopading;
+        }
+}
+
+
