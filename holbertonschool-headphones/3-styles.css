@@ -1,0 +1,151 @@
+:root {
+    --salmon: #FF6565;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--white);
+    font-size: 15px;
+    line-height:1.8em
+}
+
+.main {
+    background-image: url("./images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+/* navbar */
+.navbar{
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.navbar-brand{
+}
+
+.navbar-element{
+    font-size: 150%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5rem;
+    justify-content: center;
+    justify-content: flex-end;
+}
+
+.callToAction{
+    padding-top: 200px;
+    padding: 200px 300px;
+    text-align: center;
+}
+
+.callToAction button {
+    background-color: var(--salmon);
+    color: var(--white);
+    font-size: 100%;
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+.whatwedoContainer {
+    background-color: var(--white);
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 100%;
+    width: cover;
+    color: var(--black);
+    text-align: center;
+}
+
+.whatwedoContainer section {
+    padding: 50px 200px ;
+}
+
+.whatwedoContainer h2 {
+    font-size: 32px;
+}
+
+.whatwedoIcons {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.whatwedotitle {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.whatwedodescription {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.icon {
+    font-size: 150px;
+    color: var(--salmon);
+}
+
+.ourresultsContainer {
+    background-image: url("./images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 100%;
+    width: cover;
+    min-height:400px;
+    color: var(--black);
+    text-align: center;
+}
+
+.ourresultsContainer h2 {
+    font-size: 32px;
+    color: var(--white);
+}
+
+.ourresultsContainer p {
+    color: var(--white);
+}
+
+.pentagonsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.pentagons {
+    height: 200px;
+    width: 200px;
+}
+
+.footerContainer {
+    background-color: #071629;
+}
+
+.footerIcon {
+    font-size: 50px;
+    color: var(--white);
+}
+
+.footerDiv{
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 100px;
+}
